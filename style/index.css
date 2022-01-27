@@ -1,1 +1,202 @@
-/* Add CSS styling here */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+header {
+    background-color: lightgray;
+    color: black;
+    padding: 20px;
+    margin-bottom: 15px;
+    max-width: 100%;
+    
+}
+
+body {
+    background-color: cadetblue;
+}
+
+.button {
+    border-radius: 5%;
+    text-decoration: none;
+}
+
+footer {
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    
+}
+
+img {
+    border-radius: 10%;
+    
+}
+
+.text {
+    padding: 20px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;    
+}
+
+.coolStuff {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+@media(max-width: 500px) {
+    * {
+        max-width: 100%;
+    }
+    
+    h1, h2, h3, h4 {
+        font-size: 1.5rem;
+    }
+    
+    p {
+        font-size: 1.3rem;
+    }
+    
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin: 5%;
+    }
+    
+
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        flex-direction: row;   
+    }
+
+    .projects div {
+        max-width: 40%;
+        
+    }
+
+    
+
+    .coolStuff {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        flex-direction: row;
+    }
+
+    .coolStuff div {
+        max-width: 40%;
+    }
+
+    
+
+    #flexcontainer {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 800px) {
+    * {
+        max-width: 100%;
+    }
+    
+    h1, h2, h3, h4 {
+        font-size: 2.5rem;
+    }
+    
+    p {
+        font-size: 2rem;
+    }
+    
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin: 5%;
+    }
+
+    #proPic {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        max-width: 60%;
+        margin: 0 20%;
+    }
+    
+
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        flex-direction: row;   
+    }
+
+    .projects div {
+        max-width: 40%;
+        
+    }
+
+    
+
+    .coolStuff {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        flex-direction: row;
+    }
+
+    .coolStuff div {
+        width: 50%;
+        
+    }
+
+    
+
+    #flexcontainer {
+        flex-wrap: wrap;
+    }
+}
+}
